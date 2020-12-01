@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  Bavaria Regulations
+
+  Created by mihmouda on 11/27/20.
+  
+*/
+
+// Green Signal Rules
+
+"greenSignal_faceToFace_rules" = "Einschränkungen des persönlichen Kontakts im öffentlichen Raum";
+"greenSignal_events_rules" = "Private Veranstaltungen (d. H. Hochzeiten usw.) mit maximal 100 Teilnehmern in geschlossenen Räumen und maximal 200 Teilnehmern im Freien";
+"greenSignal_mask_rules" = "Das Tragen einer Maske ist obligatorisch, wenn (einschließlich, aber nicht beschränkt auf) die Nutzung öffentlicher Verkehrsmittel, Einkaufen, Essen und Trinken in Restaurants, Bars usw. und der Mindestabstand (1,5 m) nicht eingehalten werden kann";
+
+// Yellow Signal Rules
+
+"yellowSignal_events_rules" = "Private Feiern und Kontakte: nicht mehr als zwei Haushalte oder zehn Personen";
+"yellowSignal_mask_rules" = "Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen, in öffentlichen Gebäuden, in weiterführenden Schulen während des Unterrichts, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw.";
+"yellowSignal_curfew_rules" = "Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 23:00 Uhr";
+
+
+// Red Signal Rules
+
+"redSignal_events_rules" = "Private Feiern und Kontakte: nicht mehr als 5 Haushalte oder fünf Personen";
+"redSignal_mask_rules" = "Das Tragen einer Maske ist in stark frequentierten Räumen, in Fußgängerzonen, in öffentlichen Gebäuden, für alle Klassenstufen, an Universitäten, für Teilnehmer an (Sport-) Veranstaltungen usw.";
+"redSignal_curfew_rules" = "Ausgangssperre und Verbot des Verkaufs sowie des Konsums von Alkohol im öffentlichen Raum ab 22:00 Uhr auf The ADDITONAL Signal for Bavaria";
+
+// Dark red Signal Rules
+
+"darkRedSignal_events_rules" = "Veranstaltungen (z. B. Clubtreffen, Sportveranstaltungen, kulturelle Veranstaltungen usw.) dürfen 50 Personen nicht überschreiten";
+"darkRedSignal_curfew_rules" = "Schließung der Lebensmittel- / Gastronomie-Verkaufsstellen, Verbot des Alkoholverkaufs und des Alkoholkonsums an bestimmten öffentlichen Orten ab 21:00 Uhr";
+
+// GeneralRegulation Rules
+
+"generalRegulation_washHands_title" = "Wasch deine Hände";
+"generalRegulation_safeDistance_title" = "Abstand halten";
+"generalRegulation_airRoom_title" = "Lufträume regelmäßig";
+"generalRegulation_wearMask_title" = "Eine Maske tragen";
+
+"statisticalInfoViewController_title" = "Statistische";
+
+"general.regulations" = "Vorschriften";
+"general.green" = "Grün";
+"general.yellow" = "Gelb";
+"general.red" = "Rot";
+"general.darkRed" = "Dunkel-Rot";
+"general.totalCases" = "Fälle insgesamt";
+"general.deathCases" = "Todesfälle";
+"general.deathRate" = "Todesrate";
+"general.cases" = "Fälle";
+"general.percentage" = "%";
+"general.showMore" = "Zeig mehr";
+"general.showLess" = "Zeige weniger";
+
+// Header Titles
+"general_regulations_header_title" = "Allgemeine Bestimmungen";
+"signal_regulations_header_title"  = "%@ Signalvorschriften";
