@@ -83,6 +83,8 @@ enum COVIDRegulation {
                     switch redType {
                     case .regular:
                         localizedKey = "redSignal_mask_rules"
+                    case .dark:
+                        break
                     }
                 default:
                     break
@@ -104,6 +106,8 @@ enum COVIDRegulation {
                     switch redType {
                     case .regular:
                         localizedKey = "redSignal_events_rules"
+                    case .dark:
+                        localizedKey = "darkRedSignal_events_rules"
                     }
                 default:
                     break
@@ -116,6 +120,8 @@ enum COVIDRegulation {
                     switch redType {
                     case .regular:
                         localizedKey = "redSignal_curfew_rules"
+                    case .dark:
+                        localizedKey = "darkRedSignal_curfew_rules"
                     }
                 default:
                     break

@@ -26,8 +26,10 @@ class COVIDSignalUtil {
             return .green
         case let x where x >= 35.0 && x <= 50.0:
             return .yello
-        case let x where x > 50.0:
+        case let x where (x > 50.0 && data.state == .other) || (x > 50.0 && x <= 100.0 && data.state == .bayern):
             return .red(COVIDSignal.RedSignal.regular)
+        case let x where x > 100.0:
+            return .red(COVIDSignal.RedSignal.dark)
         default:
             return .none
         }

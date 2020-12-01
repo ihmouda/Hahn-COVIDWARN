@@ -47,6 +47,7 @@ enum COVIDSignal: Equatable {
     enum RedSignal {
         
         case regular
+        case dark
         
         /// Title
         var title: String {
@@ -54,6 +55,8 @@ enum COVIDSignal: Equatable {
             switch self {
             case .regular:
                 return NSLocalizedString("general.red", comment: "")
+            case .dark:
+                return NSLocalizedString("general.darkRed", comment: "")
             }
         }
         
@@ -63,6 +66,8 @@ enum COVIDSignal: Equatable {
             switch self {
             case .regular:
                 return UIColor(red: 255.0/255, green: 0.0, blue: 0.0, alpha: 1.0)
+            case .dark:
+                return UIColor(red: 90.0/255, green: 0.0, blue: 0.0, alpha: 1.0)
             }
         }
         
@@ -88,6 +93,9 @@ enum COVIDSignal: Equatable {
             case .regular:
                 return [COVIDRegulation.signalRegulation(.events(self)),
                         COVIDRegulation.signalRegulation(.mask(self)),
+                        COVIDRegulation.signalRegulation(.curfew(self))]
+            case .dark:
+                return [COVIDRegulation.signalRegulation(.events(self)),
                         COVIDRegulation.signalRegulation(.curfew(self))]
             }
             
